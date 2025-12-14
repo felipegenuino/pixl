@@ -7,7 +7,8 @@
     <meta name="color-scheme" content="dark">
     <link rel="stylesheet" href="./styles.css" />
 </head>
-<body class="p-2">
+<body class="p-2 h-dvh w-full overflow-clip relative">
+
 
     <h1 class="text-4xl uppercase font-pixl">Hello, Vite</h1>
 
@@ -17,5 +18,22 @@
         <div class="size-8 bg-pixl-dark"></div>
     </div>
     
+    <div class="absolute inset-0 overflow-clip">
+        <img   
+        src="./images/Official-Login-BG.png" alt="" 
+        class="absolute inset-y-0 left-[15%] w-full h-full object-cover mask-l-from-80% opacity-30">
+   </div>
+
+   <footer class="fixed bottom-2 inset-x-0 pb-8">
+        <div class="flex flex-col gap-1.5 items-center text-pixl pb-4">
+            <p>A11 Rights Reserved. Pixl Media For Everyone*</p>
+            <p class="opacity-50">*except for badgers, they're $&@*holes.</p>
+        </div>
+        <div
+            class="absolute bottom-0 inset-x-0 h-4 bg-repeat"
+            style="background-image: url('/images/white-noise.gif'); background-repeat: repeat;"
+            aria-hidden="true"
+        ></div> 
+    </footer>
 </body>
 </html>
